@@ -258,3 +258,4 @@ C:\Users\Dong\Downloads\ASM_C6\ASM_C6\bin\Debug\net8.0\Microsoft.Extensions.Feat
 C:\Users\Dong\Downloads\ASM_C6\ASM_C6\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\Dong\Downloads\ASM_C6\ASM_C6\bin\Debug\net8.0\NetcodeHub.Packages.Extensions.LocalStorage.dll
 C:\Users\Dong\Downloads\ASM_C6\ASM_C6\bin\Debug\net8.0\NetcodeHub.Packages.Extensions.SessionStorage.dll
+C:\Users\Dong\Downloads\ASM_C6\ASM_C6\obj\Debug\net8.0\ASM_C6.sourcelink.json

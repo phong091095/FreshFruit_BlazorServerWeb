@@ -157,60 +157,68 @@ namespace ASM_C6.Components.Pages.StorePage
             {
                 var apiUrl = $"{_apiSetting.BaseUrl}/foods/{id}";
                 var response = await HttpClient.GetAsync(apiUrl);
+
                 if (response.IsSuccessStatusCode)
                 {
-                    addfood = await response.Content.ReadFromJsonAsync<ASM_C6.Model.Food>();
-                    string rootPath = @"wwwroot\";
-
-                    
+                    var addfood = await response.Content.ReadFromJsonAsync<ASM_C6.Model.Food>();
+                    if (addfood != null)
+                    {
+                        string rootPath = @"wwwroot\";
                         int rootIndex = addfood.Image.IndexOf(rootPath);
-                        string relativePath = addfood.Image.Substring(rootIndex + rootPath.Length - 1).Replace("\\", "/");
-                        addfood.Image = relativePath;
-                    }
-                    // Lấy danh sách từ session
-                    if (await sessionStorageService.GetItemListAsync<OrderItem>("cart") == null)
-                    {
-                        items = new List<OrderItem>();
-                    }
-                    else
-                    {
-                        items = await sessionStorageService.GetItemListAsync<OrderItem>("cart");
-                    }
-                    // Kiểm tra và cập nhật danh sách
-                    var existingItem = items.FirstOrDefault(item => item.FoodCode == id);
-                    if (existingItem != null)
-                    {
-                    existingItem.Quantity++;
-                    }
-                    else
-                    {
-                        var neworder = new OrderItem
-                        {
-                            FoodCode = id,
-                            Quantity = 1,
-                            UnitPrice = addfood.CurrentPrice
-                        };
-                        await sessionStorageService.AddItemToListAsync<OrderItem>("cart", neworder);
-                    }
 
-                
+                        if (rootIndex >= 0)
+                        {
+                            string relativePath = addfood.Image.Substring(rootIndex + rootPath.Length).Replace("\\", "/");
+                            addfood.Image = relativePath;
+                        }
+                        else
+                        {
+                            // Handle case where rootPath is not found in addfood.Image
+                            addfood.Image = addfood.Image.Replace("\\", "/");
+                        }
+
+                        // Lấy danh sách từ session
+                        var cartItems = await sessionStorageService.GetItemListAsync<OrderItem>("cart") ?? new List<OrderItem>();
+
+                        // Kiểm tra và cập nhật danh sách
+                        for (int i = 0; i < cartItems.Count; i++)
+                        {
+                            if (cartItems[i].FoodCode == id)
+                            {
+                                cartItems[i].Quantity++;
+                            }
+                            else
+                            {
+                                var newOrderItem = new OrderItem
+                                {
+                                    FoodCode = addfood.FoodCode,
+                                    Quantity = 1,
+                                    UnitPrice = addfood.CurrentPrice
+                                };
+                                cartItems.Add(newOrderItem);
+                            }
+                        }
+                        // Lưu danh sách vào session
+                        await sessionStorageService.AddItemToListAsync("cart", cartItems);
+                    }
+                }
             }
             catch (Exception ex)
             {
-
+                // Hiển thị thông báo lỗi và điều hướng đến trang chính
+                await jmodule.InvokeVoidAsync("show", "Fail to add product to cart. Please try later." + ex.Message);
+                NavigationManager.NavigateTo("/", true);
             }
-            }
-
-
-
-
+        }
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
             if (firstRender)
             {
-
+                _isRenderCompleted = true;
+                jmodule = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/script.js");
             }
         }
+
 
     }
 }
