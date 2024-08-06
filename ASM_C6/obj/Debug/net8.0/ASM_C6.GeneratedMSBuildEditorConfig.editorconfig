@@ -17,159 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ASM_C6
 build_property.RootNamespace = ASM_C6
-build_property.ProjectDir = C:\Users\Dong\Downloads\ASM_C6\ASM_C6\
+build_property.ProjectDir = C:\Users\huynh\Source\Repos\FreshFruit_BlazorServerWeb\ASM_C6\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dong\Downloads\ASM_C6\ASM_C6
+build_property.MSBuildProjectDirectory = C:\Users\huynh\Source\Repos\FreshFruit_BlazorServerWeb\ASM_C6
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/App.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/AdminLayout.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Layout/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/AdminNavMenu.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Layout/AdminNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5OYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/MainLayout.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/ShopNavMenu.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Layout/ShopNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2hvcE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Admin/AddAdmin.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/Admin/AddAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZGRBZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Admin/AdminMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/Admin/AdminMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxBZG1pbk1uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Admin/EditAdmin.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/Admin/EditAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxFZGl0QWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Admin/WelcomeAdm.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/Admin/WelcomeAdm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxXZWxjb21lQWRtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/AdmRoutes.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/AdmRoutes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/CategoryPage/AddCategory.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/CategoryPage/AddCategory.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VcQWRkQ2F0ZWdvcnkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/CategoryPage/CategoryMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/CategoryPage/CategoryMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VcQ2F0ZWdvcnlNbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/CategoryPage/EditCate.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/CategoryPage/EditCate.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeVBhZ2VcRWRpdENhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboDetail/AddComboDetail.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboDetail/AddComboDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib0RldGFpbFxBZGRDb21ib0RldGFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboDetail/ComboDetailsMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboDetail/ComboDetailsMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib0RldGFpbFxDb21ib0RldGFpbHNNbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboDetail/EditComboDetail.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboDetail/EditComboDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib0RldGFpbFxFZGl0Q29tYm9EZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboPage/AddCombo.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboPage/AddCombo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib1BhZ2VcQWRkQ29tYm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboPage/ComboMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboPage/ComboMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib1BhZ2VcQ29tYm9Nbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/ComboPage/EditCombo.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/ComboPage/EditCombo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21ib1BhZ2VcRWRpdENvbWJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Customer.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/Customer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/CustomerPage/AddCustomer.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/CustomerPage/AddCustomer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lclBhZ2VcQWRkQ3VzdG9tZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/CustomerPage/CustomerMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/CustomerPage/CustomerMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lclBhZ2VcQ3VzdG9tZXJNbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/FoodPage/AddFood.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/FoodPage/AddFood.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb29kUGFnZVxBZGRGb29kLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/FoodPage/EditFood.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/FoodPage/EditFood.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb29kUGFnZVxFZGl0Rm9vZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/FoodPage/FoodsMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/FoodPage/FoodsMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb29kUGFnZVxGb29kc01uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/OrderPage/OrderMn.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/OrderPage/OrderMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmRlclBhZ2VcT3JkZXJNbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Cart.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Checkout.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Checkout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcQ2hlY2tvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Contact.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Detail.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Detail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcRGV0YWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Index.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Login.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/ProductDetail.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/ProductDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcUHJvZHVjdERldGFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/SearchResult.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/SearchResult.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcU2VhcmNoUmVzdWx0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Shop.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Pages/StorePage/Shop.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcU2hvcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Routes.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/_Imports.razor]
+[C:/Users/huynh/Source/Repos/FreshFruit_BlazorServerWeb/ASM_C6/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

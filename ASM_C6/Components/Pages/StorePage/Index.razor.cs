@@ -100,7 +100,7 @@ namespace ASM_C6.Components.Pages.StorePage
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
-                await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
+                //await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 NavigationManager.NavigateTo("/", true);
             }
         }
