@@ -1,0 +1,909 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\0040fa26-159c-419f-82c3-ac33a26d82d9.jpg",
+      "PackagePath": "staticwebassets\\images\\0040fa26-159c-419f-82c3-ac33a26d82d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\06286e70-3c35-4ba0-b2ad-547a14b62685.jpg",
+      "PackagePath": "staticwebassets\\images\\06286e70-3c35-4ba0-b2ad-547a14b62685.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\09102b10-ca4d-4e73-9a27-29e5904b3f01.jpg",
+      "PackagePath": "staticwebassets\\images\\09102b10-ca4d-4e73-9a27-29e5904b3f01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\0cc976dc-2f4e-4fc8-b141-fa20793396b2.jpg",
+      "PackagePath": "staticwebassets\\images\\0cc976dc-2f4e-4fc8-b141-fa20793396b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\1a46086f-eb86-49d9-9106-9d68dbb9e67a.jpg",
+      "PackagePath": "staticwebassets\\images\\1a46086f-eb86-49d9-9106-9d68dbb9e67a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\2c4088f4-0bb7-49ae-91cb-decaeaa3823c.jpg",
+      "PackagePath": "staticwebassets\\images\\2c4088f4-0bb7-49ae-91cb-decaeaa3823c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\3822ea75-0520-4ab4-a447-82c630f47498.jpg",
+      "PackagePath": "staticwebassets\\images\\3822ea75-0520-4ab4-a447-82c630f47498.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\3ad96581-043c-43c9-8b21-7dd47efbb508.png",
+      "PackagePath": "staticwebassets\\images\\3ad96581-043c-43c9-8b21-7dd47efbb508.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\3c750f5e-80f6-41d0-bd7a-552670c5fdda.jpg",
+      "PackagePath": "staticwebassets\\images\\3c750f5e-80f6-41d0-bd7a-552670c5fdda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\3c8f1495-73ff-4d27-a0e8-0c920f671e07.jpeg",
+      "PackagePath": "staticwebassets\\images\\3c8f1495-73ff-4d27-a0e8-0c920f671e07.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\4028ee7d-42c4-4c29-8a68-619b637bed2d.jpg",
+      "PackagePath": "staticwebassets\\images\\4028ee7d-42c4-4c29-8a68-619b637bed2d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\42a9b056-1152-469d-be54-60b091e1a4db.jpg",
+      "PackagePath": "staticwebassets\\images\\42a9b056-1152-469d-be54-60b091e1a4db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\437445cf-a30e-4ef7-a5cb-bb681be2115f.jpg",
+      "PackagePath": "staticwebassets\\images\\437445cf-a30e-4ef7-a5cb-bb681be2115f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\46db4a16-220e-4ed3-9d13-c7f9a2ff683c.jpeg",
+      "PackagePath": "staticwebassets\\images\\46db4a16-220e-4ed3-9d13-c7f9a2ff683c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\472ecb28-9469-4bae-a6f1-e8c8b5525c61.jpg",
+      "PackagePath": "staticwebassets\\images\\472ecb28-9469-4bae-a6f1-e8c8b5525c61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\51062cd4-2b9c-4ed7-84bb-818f3a745af0.png",
+      "PackagePath": "staticwebassets\\images\\51062cd4-2b9c-4ed7-84bb-818f3a745af0.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\62d41570-072d-44c8-8f89-a6a2f04d2185.jpg",
+      "PackagePath": "staticwebassets\\images\\62d41570-072d-44c8-8f89-a6a2f04d2185.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\68e7fe4e-6835-4672-b794-351d37a59839.jpg",
+      "PackagePath": "staticwebassets\\images\\68e7fe4e-6835-4672-b794-351d37a59839.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\712b0e0a-ed91-4794-a7e5-ef1bd8d08811.jpg",
+      "PackagePath": "staticwebassets\\images\\712b0e0a-ed91-4794-a7e5-ef1bd8d08811.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\7408e515-7dca-43a8-b2cd-83fb95ad09ec.jpg",
+      "PackagePath": "staticwebassets\\images\\7408e515-7dca-43a8-b2cd-83fb95ad09ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\791138ff-ff6d-4b4a-8935-7e2c8e40eabf.jpg",
+      "PackagePath": "staticwebassets\\images\\791138ff-ff6d-4b4a-8935-7e2c8e40eabf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\7cf11e91-87ef-4819-bcec-67b6df703f7b.jpg",
+      "PackagePath": "staticwebassets\\images\\7cf11e91-87ef-4819-bcec-67b6df703f7b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\7fe0346b-4d4f-4780-adb2-52e4d3335754.jpg",
+      "PackagePath": "staticwebassets\\images\\7fe0346b-4d4f-4780-adb2-52e4d3335754.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\8283082c-a460-48f5-b78a-099be6e8b115.png",
+      "PackagePath": "staticwebassets\\images\\8283082c-a460-48f5-b78a-099be6e8b115.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\a07613c7-1b1b-4a83-ab7c-735d37f9d08c.jpg",
+      "PackagePath": "staticwebassets\\images\\a07613c7-1b1b-4a83-ab7c-735d37f9d08c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\a70f9aac-45dc-4301-8b13-87958f60fc42.jpg",
+      "PackagePath": "staticwebassets\\images\\a70f9aac-45dc-4301-8b13-87958f60fc42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\ad5f2612-199a-441a-a979-bc44e3d81003.png",
+      "PackagePath": "staticwebassets\\images\\ad5f2612-199a-441a-a979-bc44e3d81003.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\b4bd0c4e-16cb-40c8-a26b-d8ad092192f6.jpg",
+      "PackagePath": "staticwebassets\\images\\b4bd0c4e-16cb-40c8-a26b-d8ad092192f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\b6864a25-96eb-44ee-9d75-67acf1aca0f1.jpg",
+      "PackagePath": "staticwebassets\\images\\b6864a25-96eb-44ee-9d75-67acf1aca0f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\bd1eb085-e613-4289-aa41-61b643b9875d.jpg",
+      "PackagePath": "staticwebassets\\images\\bd1eb085-e613-4289-aa41-61b643b9875d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\category-1.jpg",
+      "PackagePath": "staticwebassets\\images\\category-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\category-2.jpg",
+      "PackagePath": "staticwebassets\\images\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\category-3.jpg",
+      "PackagePath": "staticwebassets\\images\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\category-4.jpg",
+      "PackagePath": "staticwebassets\\images\\category-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\category.jpg",
+      "PackagePath": "staticwebassets\\images\\category.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\cca806e5-a3fc-4512-adcc-85e28bcc611c.jpg",
+      "PackagePath": "staticwebassets\\images\\cca806e5-a3fc-4512-adcc-85e28bcc611c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\ce123a90-dc75-4d69-bb69-fa007216a127.jpg",
+      "PackagePath": "staticwebassets\\images\\ce123a90-dc75-4d69-bb69-fa007216a127.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\dfb9f0e3-f4b9-46cd-8375-d1014039de13.jpg",
+      "PackagePath": "staticwebassets\\images\\dfb9f0e3-f4b9-46cd-8375-d1014039de13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\e006c55d-fad4-46d1-9bd3-9e9ee998d939.jpg",
+      "PackagePath": "staticwebassets\\images\\e006c55d-fad4-46d1-9bd3-9e9ee998d939.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\e09f63f5-82aa-4e1e-b580-3d7f57d9bd8a.png",
+      "PackagePath": "staticwebassets\\images\\e09f63f5-82aa-4e1e-b580-3d7f57d9bd8a.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\e1b93ce3-1f2a-4ffe-86a7-e183805ea466.jpeg",
+      "PackagePath": "staticwebassets\\images\\e1b93ce3-1f2a-4ffe-86a7-e183805ea466.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\e62e1ed7-f10a-4cf7-a36e-720c646ee780.jpg",
+      "PackagePath": "staticwebassets\\images\\e62e1ed7-f10a-4cf7-a36e-720c646ee780.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\fd31bc3b-3de2-4259-ae8c-b2d3e5a590d9.jpg",
+      "PackagePath": "staticwebassets\\images\\fd31bc3b-3de2-4259-ae8c-b2d3e5a590d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\images\\image_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\images\\image_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\images\\image_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\images\\image_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\images\\image_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\images\\image_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\partner-1.png",
+      "PackagePath": "staticwebassets\\images\\partner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\partner-2.png",
+      "PackagePath": "staticwebassets\\images\\partner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\partner-3.png",
+      "PackagePath": "staticwebassets\\images\\partner-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\partner-4.png",
+      "PackagePath": "staticwebassets\\images\\partner-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\partner-5.png",
+      "PackagePath": "staticwebassets\\images\\partner-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\images\\product-9.jpg",
+      "PackagePath": "staticwebassets\\images\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\Basil.jpg",
+      "PackagePath": "staticwebassets\\img\\Basil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\baner-1.png",
+      "PackagePath": "staticwebassets\\img\\baner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\banner-fruits.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-fruits.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\best-product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\cart-page-header-img.jpg",
+      "PackagePath": "staticwebassets\\img\\cart-page-header-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\featur-1.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\featur-2.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\featur-3.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-1.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-2.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-3.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-4.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-5.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\fruite-item-6.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\hero-img-1.png",
+      "PackagePath": "staticwebassets\\img\\hero-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\hero-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\hero-img.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\istockphoto-1304522945-612x612.jpg",
+      "PackagePath": "staticwebassets\\img\\istockphoto-1304522945-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\istockphoto-589415708-612x612.jpg",
+      "PackagePath": "staticwebassets\\img\\istockphoto-589415708-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\pexels-photo-1092730.jpeg",
+      "PackagePath": "staticwebassets\\img\\pexels-photo-1092730.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\pexels-photo-1132047.jpeg",
+      "PackagePath": "staticwebassets\\img\\pexels-photo-1132047.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\pexels-photo-1395958.jpeg",
+      "PackagePath": "staticwebassets\\img\\pexels-photo-1395958.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\pexels-photo-1435735.jpeg",
+      "PackagePath": "staticwebassets\\img\\pexels-photo-1435735.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\pumkin.jpg",
+      "PackagePath": "staticwebassets\\img\\pumkin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\single-item.jpg",
+      "PackagePath": "staticwebassets\\img\\single-item.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-3.png",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\img\\vegetable-item-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASM_C6.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASM_C6.props",
+      "PackagePath": "build\\ASM_C6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASM_C6.props",
+      "PackagePath": "buildMultiTargeting\\ASM_C6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASM_C6.props",
+      "PackagePath": "buildTransitive\\ASM_C6.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
