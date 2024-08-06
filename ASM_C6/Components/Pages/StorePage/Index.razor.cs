@@ -155,6 +155,8 @@ namespace ASM_C6.Components.Pages.StorePage
         {
             try
             {
+                var cartItems = await sessionStorageService.GetItemListAsync<OrderItem>("cart") ?? new List<OrderItem>();
+
                 var apiUrl = $"{_apiSetting.BaseUrl}/foods/{id}";
                 var response = await HttpClient.GetAsync(apiUrl);
 
@@ -177,29 +179,7 @@ namespace ASM_C6.Components.Pages.StorePage
                             addfood.Image = addfood.Image.Replace("\\", "/");
                         }
 
-                        // Lấy danh sách từ session
-                        var cartItems = await sessionStorageService.GetItemListAsync<OrderItem>("cart") ?? new List<OrderItem>();
-
-                        // Kiểm tra và cập nhật danh sách
-                        for (int i = 0; i < cartItems.Count; i++)
-                        {
-                            if (cartItems[i].FoodCode == id)
-                            {
-                                cartItems[i].Quantity++;
-                            }
-                            else
-                            {
-                                var newOrderItem = new OrderItem
-                                {
-                                    FoodCode = addfood.FoodCode,
-                                    Quantity = 1,
-                                    UnitPrice = addfood.CurrentPrice
-                                };
-                                cartItems.Add(newOrderItem);
-                            }
-                        }
-                        // Lưu danh sách vào session
-                        await sessionStorageService.AddItemToListAsync("cart", cartItems);
+                        
                     }
                 }
             }
