@@ -36,5 +36,8 @@ namespace ASM_C6.Model
         [DisplayName("Email khách hàng")]
         public string CustomerEmail { get; set; }
 
+        [DisplayName("Mã địa chỉ")]
+        public int CInforId { get; set; }
+
     }
 }

@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\huynh\\source\\repos\\freshfruit_blazorserverweb\\asm_c6\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\dong\\downloads\\asm_c6\\asm_c6\\components\\pages\\storepage\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\huynh\\source\\repos\\freshfruit_blazorserverweb\\asm_c6\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\huynh\\source\\repos\\freshfruit_blazorserverweb\\asm_c6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\huynh\\source\\repos\\freshfruit_blazorserverweb\\asm_c6\\components\\pages\\storepage\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\huynh\\source\\repos\\freshfruit_blazorserverweb\\asm_c6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\layout\\shopnavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\layout\\shopnavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\shop.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\shop.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\shop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\shop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,79 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminLayout.razor",
-              "DocumentMoniker": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Layout\\AdminLayout.razor",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Layout\\AdminLayout.razor",
-              "ToolTip": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Layout\\AdminLayout.razor*",
-              "RelativeToolTip": "ASM_C6\\Components\\Layout\\AdminLayout.razor*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T22:13:20.807Z",
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:36:44.833Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "ASM_C6\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACUAAACbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T21:43:34.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\appsettings.json",
-              "RelativeDocumentMoniker": "ASM_C6\\appsettings.json",
-              "ToolTip": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\appsettings.json",
-              "RelativeToolTip": "ASM_C6\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T20:17:52.894Z",
-              "EditorCaption": ""
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T22:33:56.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T21:16:48.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shop.razor",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T21:14:01.926Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Program.cs",
-              "RelativeDocumentMoniker": "ASM_C6\\Program.cs",
-              "ToolTip": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Program.cs",
-              "RelativeToolTip": "ASM_C6\\Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAADoAAABFAAAA",
+              "Title": "Shop.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAiwOwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T20:13:19.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T21:12:12.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.razor.cs",
-              "DocumentMoniker": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "ToolTip": "C:\\Users\\huynh\\source\\repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAAEsAAAAAAAAAAADwv2YAAABQAAAA",
-=======
-              "ViewState": "AQIAAJsAAAAAAAAAAAAuwKMAAAARAAAA",
->>>>>>> refs/remotes/origin/main
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T23:34:06.259Z",
-              "EditorCaption": ""
+              "Title": "ShopNavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
+              "RelativeToolTip": "ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowEYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T19:41:25.817Z"
             }
           ]
         }

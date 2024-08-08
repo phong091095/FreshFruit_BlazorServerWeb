@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huynh\\Source\\Repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\ASM_C6.csproj": {}
+    "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huynh\\Source\\Repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\ASM_C6.csproj": {
+    "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huynh\\Source\\Repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\ASM_C6.csproj",
+        "projectUniqueName": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
         "projectName": "ASM_C6",
-        "projectPath": "C:\\Users\\huynh\\Source\\Repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\ASM_C6.csproj",
-        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huynh\\Source\\Repos\\FreshFruit_BlazorServerWeb\\ASM_C6\\obj\\",
+        "projectPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
+        "packagesPath": "C:\\Users\\Dong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

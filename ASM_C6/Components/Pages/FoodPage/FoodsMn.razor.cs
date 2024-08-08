@@ -197,7 +197,6 @@ namespace ASM_C6.Components.Pages.FoodPage
             }
         }
 
-
         protected override async Task OnAfterRenderAsync(bool first)
         {
             if (first)

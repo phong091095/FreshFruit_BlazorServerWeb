@@ -100,7 +100,7 @@ namespace ASM_C6.Components.Pages.StorePage
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
-                //await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
+                await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 NavigationManager.NavigateTo("/", true);
             }
         }
@@ -150,13 +150,12 @@ namespace ASM_C6.Components.Pages.StorePage
         }
 
         public List<OrderItem> items = [];
+        public OrderItem item = new OrderItem();
         private Food addfood = new Food();
         private async Task AddToCart(Guid id)
         {
             try
             {
-                var cartItems = await sessionStorageService.GetItemListAsync<OrderItem>("cart") ?? new List<OrderItem>();
-
                 var apiUrl = $"{_apiSetting.BaseUrl}/foods/{id}";
                 var response = await HttpClient.GetAsync(apiUrl);
 
@@ -178,8 +177,41 @@ namespace ASM_C6.Components.Pages.StorePage
                             // Handle case where rootPath is not found in addfood.Image
                             addfood.Image = addfood.Image.Replace("\\", "/");
                         }
+                    }
+                   items = await sessionStorageService.GetItemListAsync<OrderItem>("cart");
+                    if (items != null)
+                    {
+                        bool itemExists = false;
 
-                        
+                        for (int i = 0; i < items.Count; i++)
+                        {
+                            if (items[i].FoodCode == id)
+                            {
+                                items[i].Quantity++;
+                                itemExists = true;
+                                break;
+                            }
+                        }
+
+                        if (!itemExists)
+                        {
+                            var newItem = new OrderItem()
+                            {
+                                FoodCode = addfood.FoodCode,
+                                UnitPrice = addfood.CurrentPrice,
+                                Quantity = 1
+                            };
+                            items.Add(newItem);
+                        }
+                        await sessionStorageService.SaveItemAsModelAsync<List<OrderItem>>("cart", items);
+                    }
+
+                    else
+                    {
+                        item.FoodCode = addfood.FoodCode;
+                        item.UnitPrice = addfood.CurrentPrice;
+                        item.Quantity = 1;
+                        await sessionStorageService.AddItemToListAsync<OrderItem>("cart", item);
                     }
                 }
             }
