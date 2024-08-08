@@ -38,12 +38,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQWRtaW5OYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/CustomerLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ3VzdG9tZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/CustomerNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ3VzdG9tZXJOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Layout/ShopNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2hvcE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/AdminLoginPage/AdminLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pbkxvZ2luUGFnZVxBZG1pbkxvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/Admin/AddAdmin.razor]
@@ -126,6 +138,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb29kUGFnZVxGb29kc01uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/LoginPage/ChangePw.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2VcQ2hhbmdlUHcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/LoginPage/CusInfomation.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2VcQ3VzSW5mb21hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/LoginPage/CustomerHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2VcQ3VzdG9tZXJIaXN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/LoginPage/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2VcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/LoginPage/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2VcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/OrderPage/OrderMn.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xPcmRlclBhZ2VcT3JkZXJNbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -148,10 +180,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdG9yZVBhZ2VcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dong/Downloads/ASM_C6/ASM_C6/Components/Pages/StorePage/ProductDetail.razor]

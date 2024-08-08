@@ -1,4 +1,4 @@
-﻿@page "/foodsmn"
+﻿@page "/admin/foodsmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -44,7 +44,7 @@
                                 <td>@GetCategoryName(item.FCategoryCode)</td>
                                 <td>@item.AdminCode</td>
                                 <td>
-                                    <a href="editfood/@item.FoodCode" class="btn btn-outline-primary">Edit</a>
+                                    <a href="admin/editfood/@item.FoodCode" class="btn btn-outline-primary">Edit</a>
                                 </td>
                                 <td>
                                     <a @onclick=@(e => ConfirmDelete(item.FoodCode)) class="btn btn-outline-danger">Delete</a>

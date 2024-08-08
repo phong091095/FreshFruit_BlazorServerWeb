@@ -58,7 +58,7 @@ namespace ASM_C6.Components.Pages.CategoryPage
                 else
                 {
                     await jmodule.InvokeVoidAsync("show", "Fail to upload data");
-                    NavigationManager.NavigateTo("/adsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
 
@@ -67,7 +67,7 @@ namespace ASM_C6.Components.Pages.CategoryPage
                 if (_isRenderCompleted)
                 {
                     await jmodule.InvokeVoidAsync("show", $"Error loading data: {ex.Message}");
-                    NavigationManager.NavigateTo("/adsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
         }
@@ -110,7 +110,7 @@ namespace ASM_C6.Components.Pages.CategoryPage
             }
             catch (Exception ex)
             {
-                await jmodule.InvokeVoidAsync("show", "An unexpected error occurred.");
+                await jmodule.InvokeVoidAsync("show", "An unexpected error occurred."+ex.Message);
             }
         }
 

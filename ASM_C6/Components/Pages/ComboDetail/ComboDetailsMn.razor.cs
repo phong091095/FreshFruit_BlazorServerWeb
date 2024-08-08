@@ -61,7 +61,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task LoadCombo()
@@ -79,7 +79,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
 
@@ -101,7 +101,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
                     Console.WriteLine($"Failed to load foods. Status Code: {response.StatusCode}");
                     Console.WriteLine($"Response Content: {errorContent}");
                     await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                    NavigationManager.NavigateTo("/combodetailsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
 
@@ -110,7 +110,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
                 if (_isRenderCompleted)
                 {
                     await jmodule.InvokeVoidAsync("show", $"Error loading data: {ex.Message}");
-                    NavigationManager.NavigateTo("/combodetailsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
         }

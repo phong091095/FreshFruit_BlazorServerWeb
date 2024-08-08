@@ -1,4 +1,4 @@
-﻿@page "/combodetailsmn"
+﻿@page "/admin/combodetailsmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -30,7 +30,7 @@
                                 <td>@GetComboName(item.ComboCode)</td>
                                 <td>@GetFoodName(item.FoodCode)</td>
                                 <td>
-                                    <a href="editcombodetail/@item.Id" class="btn btn-outline-primary">Edit</a>
+                                    <a href="admin/editcombodetail/@item.Id" class="btn btn-outline-primary">Edit</a>
                                 </td>
                                 <td>
                                     <a class="btn btn-outline-danger" @onclick="@(() => ConfirmDelete(item.Id))">Delete</a>

@@ -73,20 +73,20 @@ namespace ASM_C6.Components.Pages.ComboPage
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Add combo successfully.");
-                    NavigationManager.NavigateTo("/combosmn", true);
+                    NavigationManager.NavigateTo("/admin/combosmn", true);
                 }
                 else
                 {
                     // Đọc và in ra nội dung phản hồi lỗi từ API
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Add combo failed: {errorMessage}");
-                    NavigationManager.NavigateTo("/addcombo", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo("/addcombo", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
 
@@ -165,7 +165,7 @@ namespace ASM_C6.Components.Pages.ComboPage
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/combosmn", true);
+            NavigationManager.NavigateTo("/admin/combosmn", true);
         }
     }
 }

@@ -14,6 +14,7 @@ using System;
 using NetcodeHub.Packages.Extensions.LocalStorage;
 using NetcodeHub.Packages.Extensions.SessionStorage;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -72,6 +73,8 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.Configuration = "localhost:6379";
     options.InstanceName = "SampleInstance";
 });
+builder.Services.AddDistributedMemoryCache(); // Thêm dịch vụ cache phân phối
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);

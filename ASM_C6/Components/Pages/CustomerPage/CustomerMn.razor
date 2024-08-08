@@ -1,4 +1,4 @@
-﻿@page "/cusmn"
+﻿@page "/admin/cusmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -18,6 +18,7 @@
                         <th>Email</th>
                         <th>User Name</th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -30,6 +31,9 @@
                                 <td>@item.UserName</td>
                                 <td>
                                     <a @onclick=@(e => ConfirmReset(item.Email)) class="btn btn-outline-primary">Reset Password</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-outline-danger" @onclick="@(() => ConfirmDelete(item.Email))">Delete</a>
                                 </td>
                             </tr>
                         }

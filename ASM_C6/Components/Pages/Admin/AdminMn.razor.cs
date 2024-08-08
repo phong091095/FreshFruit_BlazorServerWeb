@@ -62,7 +62,7 @@ namespace ASM_C6.Components.Pages.Admin
                 else
                 {
                     await jmodule.InvokeVoidAsync("show", "Fail to upload data");
-                    NavigationManager.NavigateTo("/adsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
           
@@ -70,7 +70,7 @@ namespace ASM_C6.Components.Pages.Admin
             {
                 if (_isRenderCompleted) {
                     await jmodule.InvokeVoidAsync("show", $"Error loading data: {ex.Message}");
-                    NavigationManager.NavigateTo("/adsmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
         }

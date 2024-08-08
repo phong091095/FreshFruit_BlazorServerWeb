@@ -66,11 +66,9 @@ namespace ASM_C6.Components.Pages.ComboPage
                 else
                 {
                     var errorContent = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine($"Failed to load foods. Status Code: {response.StatusCode}");
+                    Console.WriteLine($"Failed to load comboees. Status Code: {response.StatusCode}");
                     Console.WriteLine($"Response Content: {errorContent}");
-                    await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                    await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                    NavigationManager.NavigateTo("/combosmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
 
@@ -79,7 +77,7 @@ namespace ASM_C6.Components.Pages.ComboPage
                 if (_isRenderCompleted)
                 {
                     await jmodule.InvokeVoidAsync("show", $"Error loading data: {ex.Message}");
-                    NavigationManager.NavigateTo("/combosmn", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
         }

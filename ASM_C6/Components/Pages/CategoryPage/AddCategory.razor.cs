@@ -60,23 +60,23 @@ namespace ASM_C6.Components.Pages.CategoryPage
                 if (response1.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Add category successfully.");
-                    NavigationManager.NavigateTo("/categoriesmn", true);
+                    NavigationManager.NavigateTo("/admin/categoriesmn", true);
                 }
                 else
                 {
                     await jmodule.InvokeVoidAsync("show", "Add category failed.");
-                    NavigationManager.NavigateTo("/addcate", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync("show", $"{ex.Message}");
-                NavigationManager.NavigateTo("/addcate", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/categoriesmn", true);
+            NavigationManager.NavigateTo("/admin/categoriesmn", true);
         }
     }
 }

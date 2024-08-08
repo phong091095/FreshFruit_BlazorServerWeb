@@ -97,20 +97,20 @@ namespace ASM_C6.Components.Pages.CustomerPage
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Password has been sent to your registered email");
-                    NavigationManager.NavigateTo("/cusmn", true);
+                    NavigationManager.NavigateTo("/admin/cusmn", true);
                 }
                 else
                 {
                     // Đọc và in ra nội dung phản hồi lỗi từ API
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Add new customer failed: {errorMessage}");
-                    NavigationManager.NavigateTo("/addcus", true);
+                    NavigationManager.NavigateTo("/admin/addcus", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo("/addcus", true);
+                NavigationManager.NavigateTo("/admin/addcus", true);
             }
         }
 
@@ -128,7 +128,7 @@ namespace ASM_C6.Components.Pages.CustomerPage
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/cusmn", true);
+            NavigationManager.NavigateTo("/admin/cusmn", true);
         }
     }
 }

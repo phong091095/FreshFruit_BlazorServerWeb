@@ -53,14 +53,14 @@ namespace ASM_C6.Components.Pages.CustomerPage
                     Console.WriteLine($"Failed to load foods. Status Code: {response.StatusCode}");
                     Console.WriteLine($"Response Content: {errorContent}");
                     await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                    NavigationManager.NavigateTo("/cusmn", true);
+                    NavigationManager.NavigateTo("/admin/cusmn", true);
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                NavigationManager.NavigateTo("/cusmn", true);
+                NavigationManager.NavigateTo("/admin/cusmn", true);
             }
         }
 
@@ -166,6 +166,49 @@ namespace ASM_C6.Components.Pages.CustomerPage
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync("show", "An unexpected error occurred." + ex.Message);
+            }
+        }
+        private async Task ConfirmDelete(string email)
+        {
+            try
+            {
+                bool confirmed = await jmodule.InvokeAsync<bool>("showConfirmAlert", "Are you sure you want to delete?");
+                if (confirmed)
+                {
+                    await DeleteAdm(email);
+                }
+            }
+            catch (JSException jsEx)
+            {
+                await jmodule.InvokeVoidAsync("show", "An error occurred while confirming deletion.");
+            }
+            catch (Exception ex)
+            {
+                await jmodule.InvokeVoidAsync("show", "An unexpected error occurred." + ex.Message);
+            }
+        }
+
+        private async Task DeleteAdm(string email)
+        {
+            try
+            {
+                string apiUrl = $"{_apiSetting.BaseUrl}/customers/{email}";
+
+                var response = await HttpClient.DeleteAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    await jmodule.InvokeVoidAsync("show", "Deleted successfully");
+                    customers = customers.Where(a => a.Email != email).ToList();
+                    UpdatePaginatedAdmins();
+                }
+                else
+                {
+                    await jmodule.InvokeVoidAsync("show", "Failed to delete data");
+                }
+            }
+            catch (Exception ex)
+            {
+                await jmodule.InvokeVoidAsync("show", "Failed to delete data");
             }
         }
         protected override async Task OnAfterRenderAsync(bool first)

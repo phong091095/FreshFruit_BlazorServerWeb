@@ -5,11 +5,12 @@
 @using NetcodeHub.Packages.Extensions.SessionStorage
 @inject ILocalStorageService localStorageService
 @inject ISessionStorageService sessionStorageService
+
 <div class="container-fluid page-header py-5">
     <h1 class="text-center text-white display-6">Shop Login</h1>
 
 </div>
-<section class="vh-100 mt-4">
+<div class="container-fluid fruite py-5">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-9 col-lg-6 col-xl-5">
@@ -20,7 +21,7 @@
                 <form>
                     <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                         <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-                        <button type="button" class="btn btn-primary btn-floating mx-1" @onclick="LoginWithGoogle">
+                        <button type="button" class="btn btn-primary btn-floating mx-1" >
                             <i class="fab fa-google"></i>
                         </button>
                         <button type="button" class="btn btn-primary btn-floating mx-1">
@@ -62,11 +63,11 @@
 
                     <div class="text-center text-lg-start mt-4 pt-2">
                         <button type="button" class="btn btn-primary btn-lg"
-                                style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;" @onclick="CheckLogin">
                             Login
                         </button>
                         <p class="small fw-bold mt-2 pt-1 mb-0">
-                            Don't have an account? <a href="#!"
+                            Don't have an account? <a href="register"
                                                       class="link-danger">Register</a>
                         </p>
                     </div>
@@ -74,14 +75,5 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
-@code {
-    [Inject] NavigationManager Navigation { get; set; }
-
-    private void LoginWithGoogle()
-    {
-        Navigation.NavigateTo("/login-google", true);
-    }
-
-}

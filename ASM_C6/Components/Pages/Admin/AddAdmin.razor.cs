@@ -60,19 +60,19 @@ namespace ASM_C6.Components.Pages.Admin
                 if (response1.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Add admin successfully.");
-                    NavigationManager.NavigateTo("/adsmn", true);
+                    NavigationManager.NavigateTo("/adm/adsmn", true);
 
                 }
                 else
                 {
                     await jmodule.InvokeVoidAsync("show", "Add admin failed.");
-                    NavigationManager.NavigateTo("/addadm", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
             catch
             {
                 await jmodule.InvokeVoidAsync("show", "Add admin failed.");
-                NavigationManager.NavigateTo("/addadm", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
 
@@ -86,7 +86,7 @@ namespace ASM_C6.Components.Pages.Admin
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/admsmn", true);
+            NavigationManager.NavigateTo("/admin/admsmn", true);
         }
     }
 }

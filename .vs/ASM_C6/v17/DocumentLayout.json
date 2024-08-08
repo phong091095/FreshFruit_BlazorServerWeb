@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\dong\\downloads\\asm_c6\\asm_c6\\components\\pages\\storepage\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|c:\\users\\dong\\downloads\\asm_c6\\asm_c6\\components\\pages\\adminloginpage\\adminlogin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\adminloginpage\\adminlogin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\adminloginpage\\adminlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\adminloginpage\\adminlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\layout\\shopnavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\layout\\shopnavmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\shop.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\shop.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|C:\\Users\\Dong\\Downloads\\ASM_C6\\asm_c6\\components\\pages\\storepage\\shop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{389FD759-2097-4848-BE9D-76C471766EBF}|ASM_C6\\ASM_C6.csproj|solutionrelative:asm_c6\\components\\pages\\storepage\\shop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,68 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
-              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAuwE0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T22:36:44.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
-              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Login.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T22:33:56.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Index.razor.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAIwEsAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Program.cs",
+              "RelativeDocumentMoniker": "ASM_C6\\Program.cs",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Program.cs",
+              "RelativeToolTip": "ASM_C6\\Program.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAuwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T21:16:48.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Shop.razor",
-              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
-              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T21:14:01.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shop.razor.cs",
-              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
-              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
-              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
-              "RelativeToolTip": "ASM_C6\\Components\\Pages\\StorePage\\Shop.razor.cs",
-              "ViewState": "AQIAAN0AAAAAAAAAAAAiwOwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T21:12:12.41Z"
+              "WhenOpened": "2024-08-08T22:56:52.885Z"
             },
             {
               "$type": "Document",
@@ -105,9 +48,34 @@
               "RelativeDocumentMoniker": "ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
               "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
               "RelativeToolTip": "ASM_C6\\Components\\Layout\\ShopNavMenu.razor",
-              "ViewState": "AQIAABcAAAAAAAAAAAAowEYAAAAbAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHMAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T19:41:25.817Z"
+              "WhenOpened": "2024-08-08T22:46:25.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminLogin.razor",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAnwDAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T22:35:38.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminLogin.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor.cs",
+              "RelativeDocumentMoniker": "ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor.cs",
+              "ToolTip": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor.cs",
+              "RelativeToolTip": "ASM_C6\\Components\\Pages\\AdminLoginPage\\AdminLogin.razor.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:29:37.056Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿@page "/combosmn"
+﻿@page "/admin/combosmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -38,7 +38,7 @@
                                 <td>@item.ApplyDate</td>
                                 <td>@item.ExpDate</td>
                                 <td>
-                                    <a href="editcombo/@item.ComboCode" class="btn btn-outline-primary">Edit</a>
+                                    <a href="admin/editcombo/@item.ComboCode" class="btn btn-outline-primary">Edit</a>
                                 </td>
                                 <td>
                                     <a class="btn btn-outline-danger" @onclick="@(() => ConfirmDelete(item.ComboCode))">Delete</a>

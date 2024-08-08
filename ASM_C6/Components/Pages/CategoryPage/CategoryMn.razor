@@ -1,4 +1,4 @@
-﻿@page "/categoriesmn"
+﻿@page "/admin/categoriesmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -29,7 +29,7 @@
                                 <td>@item.CategoryName</td>
                                 
                                 <td>
-                                    <a href="editcate/@item.FCategoryCode" class="btn btn-outline-primary">Edit</a>
+                                    <a href="admin/editcate/@item.FCategoryCode" class="btn btn-outline-primary">Edit</a>
                                 </td>
                                 <td>
                                     <a class="btn btn-outline-danger" @onclick="@(() => ConfirmDelete(item.FCategoryCode))">Delete</a>

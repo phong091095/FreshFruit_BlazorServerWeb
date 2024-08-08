@@ -173,7 +173,7 @@ namespace ASM_C6.Components.Pages.FoodPage
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Edit food successfully.");
-                    NavigationManager.NavigateTo("/foodsmn", true);
+                    NavigationManager.NavigateTo("/admin/foodsmn", true);
                 }
                 else
                 {
@@ -181,18 +181,18 @@ namespace ASM_C6.Components.Pages.FoodPage
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Edit food failed. Please check the product name again, the product name already exists.");
                     Console.WriteLine(errorMessage);
-                    NavigationManager.NavigateTo($"/editfood/{id}", true);
+                    NavigationManager.NavigateTo($"/admin/editfood/{id}", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync("show", $"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo($"/editfood/{id}", true);
+                NavigationManager.NavigateTo($"/admin/editfood/{id}", true);
             }
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/foodsmn", true);
+            NavigationManager.NavigateTo("/admin/foodsmn", true);
         }
     }
 }

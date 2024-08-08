@@ -58,7 +58,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task LoadCombo()
@@ -76,7 +76,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task EditDetail()
@@ -94,26 +94,26 @@ namespace ASM_C6.Components.Pages.ComboDetail
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Edit detail successfully.");
-                    NavigationManager.NavigateTo("/combodetailsmn", true);
+                    NavigationManager.NavigateTo("/admin/combodetailsmn", true);
                 }
                 else
                 {
                     // Đọc và in ra nội dung phản hồi lỗi từ API
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Edit detail failed: {errorMessage}");
-                    NavigationManager.NavigateTo($"/editcombodetail/{id}", true);
+                    NavigationManager.NavigateTo($"/admin/editcombodetail/{id}", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo($"/editcombodetail/{id}", true);
+                NavigationManager.NavigateTo($"/admin/editcombodetail/{id}", true);
             }
         }
 
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/combodetailsmn", true);
+            NavigationManager.NavigateTo("/admin/combodetailsmn", true);
         }
     }
 }

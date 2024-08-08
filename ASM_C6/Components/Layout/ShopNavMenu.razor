@@ -4,8 +4,9 @@
 @using NetcodeHub.Packages.Extensions.SessionStorage
 @inject ILocalStorageService localStorageService
 @inject ISessionStorageService sessionStorageService
+@using Newtonsoft.Json
 
- <!-- Navbar start -->
+<!-- Navbar start -->
 <div class="container-fluid fixed-top">
     <div class="container topbar bg-primary d-none d-lg-block">
         <div class="d-flex justify-content-between">
@@ -44,13 +45,27 @@
                 </div>
                 <div class="d-flex m-3 me-0">
                     <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
-                    <a href="#" class="position-relative me-4 my-auto">
+                    <a href="cart" class="position-relative me-4 my-auto">
                         <i class="fa fa-shopping-bag fa-2x"></i>
                         <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">@countcart</span>
                     </a>
-                    <a href="#" class="my-auto">
-                        <i class="fas fa-user fa-2x"></i>
-                    </a>
+                    @if (email != null)
+                    {
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@email</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="cusinformation" class="dropdown-item">Profile</a>
+                                <a href="cushis" class="dropdown-item">History</a>
+                                <a @onclick="@Logout" class="dropdown-item">Logout</a>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <a href="login" class="my-auto">
+                            <i class="fas fa-user fa-2x"></i>
+                        </a>
+                    }
                 </div>
             </div>
         </nav>
@@ -77,7 +92,11 @@
 <!-- Modal Search End -->
 @code {
     public string searchkey = "";
-    public int countcart ;
+    public int countcart;
+    public string email;
+    public ASM_C6.Model.Customer customer = new Model.Customer();
+    public ASM_C6.Model.OrderItem temporder = new Model.OrderItem();
+    public ASM_C6.Model.Admin tempadm = new Model.Admin();
     private void HandleKeyUp(KeyboardEventArgs e)
     {
         if (e.Key == "Enter")
@@ -85,11 +104,42 @@
             GotoSearch();
         }
     }
+
     protected override async Task OnAfterRenderAsync(bool first)
     {
-        countcart= await sessionStorageService.GetItemsCountAsync<ASM_C6.Model.OrderItem>("cart");
-        StateHasChanged();
+        if (first)
+        {
+            // Tạo session cho các đối tượng cần thiết
+            countcart = await sessionStorageService.GetItemsCountAsync<ASM_C6.Model.OrderItem>("cart");
+
+            await sessionStorageService.SaveItemAsModelAsync<ASM_C6.Model.Customer>("Login", customer);
+            await sessionStorageService.SaveItemAsModelAsync<Model.Admin>("AdmLogin", tempadm);
+            customer = await sessionStorageService.GetItemAsModelAsync<ASM_C6.Model.Customer>("Login");
+            if (customer != null)
+            {
+                // Truy cập và gán các thuộc tính của đối tượng Customer
+                email = customer.Email;
+
+                // Cập nhật giao diện
+                StateHasChanged();
+            }
+        }
+        else
+        {
+            // Khi trang đã được load và không phải là lần render đầu tiên
+            customer = await sessionStorageService.GetItemAsModelAsync<ASM_C6.Model.Customer>("Login");
+            if (customer != null)
+            {
+                // Truy cập và gán các thuộc tính của đối tượng Customer
+                email = customer.Email;
+
+                // Cập nhật giao diện
+                StateHasChanged();
+            }
+        }
     }
+
+
     private async void GotoSearch()
     {
         if (!string.IsNullOrWhiteSpace(searchkey))
@@ -97,5 +147,12 @@
             await sessionStorageService.SaveAsStringAsync("search", searchkey);
             NavigationManager.NavigateTo("/shop", true);
         }
+    }
+
+    private async void Logout()
+    {
+        await sessionStorageService.ClearAllItemsAsync();
+        NavigationManager.NavigateTo("/", true);
+        StateHasChanged();
     }
 }

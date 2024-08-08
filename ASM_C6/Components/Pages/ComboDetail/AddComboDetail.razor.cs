@@ -56,7 +56,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);  
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task LoadCombo()
@@ -74,7 +74,7 @@ namespace ASM_C6.Components.Pages.ComboDetail
             {
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
                 Console.WriteLine(ex.Message);
-                NavigationManager.NavigateTo("/combodetailsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         private async Task CreateDetail()
@@ -100,19 +100,19 @@ namespace ASM_C6.Components.Pages.ComboDetail
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Add detail failed. Please check that you have filled in all the information");
                     Console.WriteLine($"Error: {errorMessage}");
-                    NavigationManager.NavigateTo("/addcombodetail", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo("/addcombodetail", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
         
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/combodetailsmn", true);
+            NavigationManager.NavigateTo("/admin/combodetailsmn", true);
         }
 
     }

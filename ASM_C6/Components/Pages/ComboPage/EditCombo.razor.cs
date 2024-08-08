@@ -150,7 +150,7 @@ namespace ASM_C6.Components.Pages.ComboPage
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Edit combo successfully.");
-                    NavigationManager.NavigateTo("/combosmn", true);
+                    NavigationManager.NavigateTo("/admin/combosmn", true);
                 }
                 else
                 {
@@ -158,13 +158,13 @@ namespace ASM_C6.Components.Pages.ComboPage
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Edit combo failed: {errorMessage}");
                     Console.WriteLine(errorMessage);
-                    NavigationManager.NavigateTo($"/editcombo/{id}", true);
+                    NavigationManager.NavigateTo($"/admin/editcombo/{id}", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo($"/editcombo/{id}", true);
+                NavigationManager.NavigateTo($"/admin/editcombo/{id}", true);
             }
         }
         private async Task Backto()

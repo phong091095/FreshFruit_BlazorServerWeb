@@ -91,30 +91,42 @@ namespace ASM_C6.Components.Pages.StorePage
             try
             {
                 var apiUrl = $"{_apiSetting.BaseUrl}/foods/{id}";
-                var response = await HttpClient.GetAsync(apiUrl);
-
-                if (response.IsSuccessStatusCode)
+                using (var response = await HttpClient.GetAsync(apiUrl))
                 {
-                    var food = await response.Content.ReadFromJsonAsync<ASM_C6.Model.Food>();
-                    string rootPath = @"wwwroot\";
-                    int rootIndex = food.Image.IndexOf(rootPath);
-
-                    // Kiểm tra xem rootPath có tồn tại trong chuỗi không
-                    if (rootIndex >= 0)
+                    if (response.IsSuccessStatusCode)
                     {
-                        // Tìm thấy rootPath, chuyển đổi thành đường dẫn tương đối
-                        string relativePath = food.Image.Substring(rootIndex + rootPath.Length).Replace("\\", "/");
-                        food.Image = relativePath;
+                        var food = await response.Content.ReadFromJsonAsync<ASM_C6.Model.Food>();
+                        string rootPath = @"wwwroot\";
+
+                        if (!string.IsNullOrEmpty(food?.Image))
+                        {
+                            int rootIndex = food.Image.IndexOf(rootPath);
+
+                            // Kiểm tra xem rootPath có tồn tại trong chuỗi không
+                            if (rootIndex >= 0)
+                            {
+                                // Tìm thấy rootPath, chuyển đổi thành đường dẫn tương đối
+                                string relativePath = food.Image.Substring(rootIndex + rootPath.Length).Replace("\\", "/");
+                                food.Image = relativePath;
+                            }
+                        }
+                        return food?.Image;
                     }
-                    return food.Image;
+                    else
+                    {
+                        var errorContent = await response.Content.ReadAsStringAsync();
+                        await jmodule.InvokeVoidAsync("show", "Fail to upload data. " + errorContent);
+                        NavigationManager.NavigateTo("/cart", true);
+                        return null; // Hoặc trả về chuỗi rỗng nếu không cần thiết
+                    }
                 }
-                else
-                {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    await jmodule.InvokeVoidAsync("show", "Fail to upload data." + errorContent);
-                    NavigationManager.NavigateTo("/cart", true);
-                    return null; // Hoặc trả về chuỗi rỗng nếu không cần thiết
-                }
+            }
+            catch (TaskCanceledException ex)
+            {
+                Console.WriteLine($"Task was canceled: {ex.Message}");
+                await jmodule.InvokeVoidAsync("show", "Operation was canceled.");
+                NavigationManager.NavigateTo("/cart", true);
+                return null;
             }
             catch (Exception ex)
             {
@@ -124,6 +136,7 @@ namespace ASM_C6.Components.Pages.StorePage
                 return null; // Hoặc trả về chuỗi rỗng nếu không cần thiết
             }
         }
+
         private async Task<string> GetName(Guid id)
         {
             try
@@ -178,6 +191,7 @@ namespace ASM_C6.Components.Pages.StorePage
             
         }
         ASM_C6.Model.Order neworder = new ASM_C6.Model.Order();
+        List<CustomerInfomation> listcus = new List<CustomerInfomation>();
         private async Task SaveOrder()
         {
             try
@@ -185,7 +199,6 @@ namespace ASM_C6.Components.Pages.StorePage
                 
                 // Lấy thông tin khách hàng
                 var cusUrl = $"{_apiSetting.BaseUrl}/customerinformations";
-                List<CustomerInfomation> listcus = new List<CustomerInfomation>();
                 var cusresponse = await HttpClient.GetAsync(cusUrl);
 
                 // Kiểm tra phản hồi từ API
@@ -206,7 +219,19 @@ namespace ASM_C6.Components.Pages.StorePage
                     // Nếu khách hàng chưa tồn tại, thêm mới
                     StringContent content1 = new StringContent(JsonConvert.SerializeObject(cusinfo), Encoding.UTF8, "application/json");
                     var addCustomerResponse = await HttpClient.PostAsync(cusUrl, content1);
-
+                    if (addCustomerResponse.IsSuccessStatusCode)
+                    {
+                        // Yêu cầu thành công, có thể xử lý phản hồi ở đây nếu cần
+                        Console.WriteLine($"Customer email: {cusinfo.CustomerEmail}");
+                    }
+                    else
+                    {
+                        // Yêu cầu không thành công, xử lý thông báo lỗi
+                        var errorMessage = await addCustomerResponse.Content.ReadAsStringAsync();
+                        Console.WriteLine($"Error: {errorMessage}");
+                        // Hoặc bạn có thể throw exception hoặc xử lý lỗi theo cách khác
+                        throw new Exception($"Failed to add customer. Status code: {addCustomerResponse.StatusCode}, Error message: {errorMessage}");
+                    }
 
                     // Kiểm tra phản hồi từ API
                     if (!addCustomerResponse.IsSuccessStatusCode)
@@ -240,6 +265,10 @@ namespace ASM_C6.Components.Pages.StorePage
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     throw new Exception($"Failed to save order. Status Code: {response.StatusCode}. Error Message: {errorMessage}");
                 }
+                await jmodule.InvokeVoidAsync("show", "Your order has been saved in the system, please wait for confirmation from the store. Thank you!!!");
+                await sessionStorageService.DeleteItemAsync("cart");
+                await sessionStorageService.DeleteItemAsync("search");
+                NavigationManager.NavigateTo("/", true);
 
             }
             catch (HttpRequestException httpRequestException)

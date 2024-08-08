@@ -93,7 +93,7 @@ namespace ASM_C6.Components.Pages.FoodPage
                 if (response.IsSuccessStatusCode)
                 {
                     await jmodule.InvokeVoidAsync("show", "Add food successfully.");
-                    NavigationManager.NavigateTo("/foodsmn", true);
+                    NavigationManager.NavigateTo("/admin/foodsmn", true);
                 }
                
                 else
@@ -101,13 +101,13 @@ namespace ASM_C6.Components.Pages.FoodPage
                     // Đọc và in ra nội dung phản hồi lỗi từ API
                     var errorMessage = await response.Content.ReadAsStringAsync();
                     await jmodule.InvokeVoidAsync("show", $"Add food failed. Please check the product name again, the product name already exists.");
-                    NavigationManager.NavigateTo("/addfood", true);
+                    NavigationManager.NavigateTo("/admin/admwelcome", true);
                 }
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync($"An error occurred: {ex.Message}");
-                NavigationManager.NavigateTo("/addfood", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
             }
         }
 
@@ -186,7 +186,7 @@ namespace ASM_C6.Components.Pages.FoodPage
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/foodsmn", true);
+            NavigationManager.NavigateTo("/admin/foodsmn", true);
         }
     }
 }

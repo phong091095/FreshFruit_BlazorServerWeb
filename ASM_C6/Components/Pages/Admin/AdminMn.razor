@@ -1,4 +1,4 @@
-﻿@page "/adsmn"
+﻿@page "/admin/adsmn"
 @layout ASM_C6.Components.Layout.AdminLayout
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
@@ -41,7 +41,7 @@
                                     <td>Admin</td>
                                 }
                                 <td>
-                                    <a href="editadm/@item.AdminCode" class="btn btn-outline-primary">Edit</a>
+                                    <a href="admin/editadm/@item.AdminCode" class="btn btn-outline-primary">Edit</a>
                                 </td>
                                 <td>
                                     <a class="btn btn-outline-danger" @onclick="@(() => ConfirmDelete(item.AdminCode))">Delete</a>

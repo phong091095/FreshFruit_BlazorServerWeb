@@ -27,5 +27,5 @@ namespace ASM_C6.Model
         [DisplayName("Email tài khoản")]
         public string CustomerEmail { get; set; }
 
-}
+    }
 }

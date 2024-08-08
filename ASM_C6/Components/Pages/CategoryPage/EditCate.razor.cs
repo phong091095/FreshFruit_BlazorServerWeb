@@ -56,24 +56,24 @@ namespace ASM_C6.Components.Pages.CategoryPage
                     if (response.IsSuccessStatusCode)
                     {
                         await jmodule.InvokeVoidAsync("show", "Change name of category successfully.");
-                        NavigationManager.NavigateTo("/categoriesmn", true);
+                        NavigationManager.NavigateTo("/admin/categoriesmn", true);
                     }
                     else
                     {
                         await jmodule.InvokeVoidAsync("show", "Change name of categoryfailed.");
-                        NavigationManager.NavigateTo($"/editcate/{id}", true);
+                        NavigationManager.NavigateTo($"/admin/editcate/{id}", true);
                     }
 
             }
             catch (Exception ex)
             {
                 await jmodule.InvokeVoidAsync("show", "An error occurred: " + ex.Message);
-                NavigationManager.NavigateTo("/categoriesmn", true);
+                NavigationManager.NavigateTo("/admin/categoriesmn", true);
             }
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/categoriesmn", true);
+            NavigationManager.NavigateTo("/admin/categoriesmn", true);
         }
     }
 }

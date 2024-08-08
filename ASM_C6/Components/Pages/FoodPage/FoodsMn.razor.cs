@@ -86,14 +86,14 @@ namespace ASM_C6.Components.Pages.FoodPage
                     Console.WriteLine($"Failed to load foods. Status Code: {response.StatusCode}");
                     Console.WriteLine($"Response Content: {errorContent}");
                     await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                    NavigationManager.NavigateTo("/foodsmn", true);
+                    NavigationManager.NavigateTo("/admin/foodsmn", true);
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
                 await jmodule.InvokeVoidAsync("show", "Fail to upload data.");
-                NavigationManager.NavigateTo("/foodsmn", true);
+                NavigationManager.NavigateTo("/admin/foodsmn", true);
             }
         }
 

@@ -70,12 +70,12 @@ namespace ASM_C6.Components.Pages.Admin
                     if (response.IsSuccessStatusCode)
                     {
                         await jmodule.InvokeVoidAsync("show", "Change password successfully.");
-                        NavigationManager.NavigateTo("/adsmn", true);
+                        NavigationManager.NavigateTo("/admin/admsmn", true);
                     }
                     else
                     {
                         await jmodule.InvokeVoidAsync("show", "Change password is failed.");
-                        NavigationManager.NavigateTo($"/editadm/{id}", true);
+                        NavigationManager.NavigateTo($"/admin/editadm/{id}", true);
                     }
                 }
                 else
@@ -88,7 +88,7 @@ namespace ASM_C6.Components.Pages.Admin
             }
             catch (Exception ex)
             {
-                NavigationManager.NavigateTo("/adsmn", true);
+                NavigationManager.NavigateTo("/admin/admwelcome", true);
                 if (jmodule != null)
                 {
                     await jmodule.InvokeVoidAsync("show", "An error occurred: " + ex.Message);
@@ -97,7 +97,7 @@ namespace ASM_C6.Components.Pages.Admin
         }
         private async Task Backto()
         {
-            NavigationManager.NavigateTo("/adsmn", true);
+            NavigationManager.NavigateTo("/admin/adsmn", true);
         }
     }
 }
