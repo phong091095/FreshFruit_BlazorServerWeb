@@ -8364,11 +8364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
+      "projectUniqueName": "C:\\Users\\Dong\\Downloads\\SD18318_ASM_C6\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
       "projectName": "ASM_C6",
-      "projectPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
+      "projectPath": "C:\\Users\\Dong\\Downloads\\SD18318_ASM_C6\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
       "packagesPath": "C:\\Users\\Dong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\obj\\",
+      "outputPath": "C:\\Users\\Dong\\Downloads\\SD18318_ASM_C6\\ASM_C6\\ASM_C6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dong\\AppData\\Roaming\\NuGet\\NuGet.Config",

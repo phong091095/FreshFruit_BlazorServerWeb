@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kzdTNRartTrGq5uyI+E+ppQeLQPAERkRkv4u1w3ZcGoT0u9lcwdTjEeQn92iOmlJOomdFFlwGcLrAmNUdinbxg==",
+  "dgSpecHash": "J5sFadCv0rlOEutwEAMSNt36G2m0t9heljcMuEZdlE1aEGUeMB6gQma1/0iQYhfuqOj3oa0pbYsGcVidxUBEGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dong\\Downloads\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
+  "projectFilePath": "C:\\Users\\Dong\\Downloads\\SD18318_ASM_C6\\ASM_C6\\ASM_C6\\ASM_C6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dong\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Dong\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
